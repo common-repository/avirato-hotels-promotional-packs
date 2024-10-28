@@ -1,0 +1,40 @@
+div.ahop_tab {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Style the buttons inside the tab */
+
+div.ahop_tab button {
+    background-color: #ccc;
+    float: left;
+    border: 1px solid #ccc;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+div.ahop_tab button:not(:last-child) {
+    border-right: 1px solid #bbb;
+}
+/* Change background color of buttons on hover */
+div.ahop_tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.ahop_tab button.active {
+    background-color: #fff;
+}
+
+/* Style the tab content */
+.ahop_tabcontent {
+    display: none;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+
+}
+#Calendario_1{
+    display: block;
+    overflow: hidden;
+}

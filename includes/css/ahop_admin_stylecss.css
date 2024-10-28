@@ -1,0 +1,381 @@
+/*////LOGO/CABECERA////*/
+#ahop_logo{
+       margin-bottom: 25px;
+    font-size: 2em;
+    background-size: contain !important;
+    width: 306px;
+    height: 100px;
+    margin-left: 10px;
+}
+#ahop_logo_heading{
+    margin-bottom:20px;
+    font-size:2em;
+    margin-left: 14px;
+}
+/*////CONTENEDOR GENERAL////*/
+.ahop_wrap{
+    overflow: hidden;
+}
+/*////PESTAÑA CALENDARIO////*/
+.ahop_conTitle{
+    color: #fff;
+    text-align: center;
+    background: #4F4F5D;
+    margin: 0;
+    padding: 10px;
+    
+}
+/*Generador del Calendario*/
+#ahop_container1{
+    width: 280px;
+    float:left;
+    box-sizing: border-box;
+    min-height: 297px;
+    margin-bottom: 15px;
+}
+#ahop_container1 form{
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+  
+}
+#ahop_container1 form .code_container{
+    text-align: center;
+}
+#ahop_container1 form label, #ahop_container2 #formularioCal label:not([id="ahop_logo_url"]){
+    width:200px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+}
+#ahop_container1 form label{
+    width:100%;
+}
+#ahop_container1 form input{
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+#ahop_container1 #ahop_externo, #ahop_externo1{
+    background: #0085ba;
+    border-color: #0085ba;
+    border-width: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+#ahop_externo1{
+    margin: 10px auto 0;
+}
+/*Editor de Estilos*/
+#ahop_container2{
+    width: 250px;
+    float: left;
+    
+    box-sizing: border-box;
+    min-height: 297px;
+    margin-left: .9%;
+}
+
+#ahop_container2 #formularioCal{
+    width: 100%;
+    background: #fff;
+    padding: 20px 20px 0px 20px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-height: 446px;
+}
+#ahop_container2 #formularioCal label:not([id="ahop_logo_url"]){
+    margin-bottom: 10px;
+}
+#ahop_container2 #formularioCal label[id="ahop_logo_url"]{
+    display: inline-block;
+    font-size: 12px
+}
+#ahop_container2 #formularioCal input[type='color']{
+    margin-bottom: 10px;
+    height: 28px;
+}
+#ahop_container2 #formularioCal input[type='number']{
+    margin-bottom: 10px;
+    height: 28px;
+    width: 50px;
+}
+#ahop_container2 #formularioCal input[type='text']:first-of-type{
+    width: 60%;
+}
+#ahop_container2 #formularioCal .submit{
+    text-align: center;
+}
+#ahop_container2 #formularioCal .submit #submit{
+    width: 165px;
+}
+#ahop_container2 #formularioCal img{
+    display:block;
+    border: 1px solid #222;
+    margin: 10px auto 0;
+}
+#ahop_shortcode_text{
+    font-weight: normal;
+    margin-left: 15px;
+    box-sizing: border-box;
+}
+#multiEstab * {
+ display: block;
+ width: 100%;
+}
+#multiEstab input{
+    margin-bottom: 10px;
+}
+/*////INTEGRACION////*/
+#ahop_container3{
+    width: 100%;  
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+#ahop_container3 div{
+    background: #fff;
+    padding: 15px;
+   
+    min-height: 136px;
+}
+#ahop_container3 p{
+    margin: 0;
+    font-size: 16px;
+}
+/*////PREVISUALIZACION////*/
+#ahop_container4, #ahop_container5{
+
+    float: left;
+    box-sizing: border-box;
+    min-height: 297px;
+    margin-left: .9%;
+}
+#ahop_container4 #ahop_cont4_cont{
+    background: #fff;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-height: 416px;
+}
+/*////PESTAÑA BOTONES////*/
+#Calendario_2 div{
+    background: #fff;
+    margin-top: 15px;
+    padding: 1px 0;
+    padding-right: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#Calendario_2 div h3{
+    margin-left: 10px;
+}
+#Calendario_2 div h3 i{
+    text-decoration: underline;
+}
+#Calendario_2 div ul{
+
+    margin-left: 10px;
+    list-style: disc;
+    float:left;
+    width: 100%;
+}
+#Calendario_2 div ul li:first-of-type{
+    line-height: 2;
+}
+#Calendario_2 div ul li:first-of-type span:last-of-type{
+    width: 25%;
+}
+#Calendario_2 div ul li:first-of-type span{
+    font-weight: bolder;
+}
+/*////PESTAÑA AYUDA////*/
+#Calendario_3  #ahop_cal3_cont{
+    background: #fff;
+    padding: 10px ;
+    overflow: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#Calendario_3 #ahop_ul1{
+    list-style: disc;
+    margin-left: 25px;
+}
+#Calendario_3 #ahop_ul2{
+    padding: 0 10px;
+    list-style: circle;
+}
+
+/*////SISTEMA DE PESTAÑAS////*/
+div.ahop_tab {
+    overflow: hidden;
+    background-color: transparent;
+}
+div.ahop_tab button {
+    background-color: #ccc;
+    float: left;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 6px 16px;
+    transition: 0.3s;
+}
+div.ahop_tab button:first-child {
+  
+}
+div.ahop_tab button:last-child {
+
+}
+div.ahop_tab button:not(:first-child) {
+    border-left: 1px solid #bbb;
+}
+div.ahop_tab button:hover {
+    background-color: #ddd;
+}
+div.ahop_tab button.active {
+    background: #4F4F5D;
+    color: #fff;
+    font-weight: bold;
+}
+.ahop_tabcontent {
+    display: none;
+    margin-top: 15px;
+}
+#Calendario_1{
+    display: block;
+    overflow: hidden;
+}
+/*////GENERAL WP////*/
+#wpcontent {
+    padding-right: 20px;
+}
+#wpfooter {
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    color: #555d66;
+}
+#check-availability{
+    -webkit-appearance:none;
+}
+
+.ahc-row {
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  background: #fff;
+  width: 75%;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.ahc-widget-wrap {
+  width: 33.333%;
+  text-align: center;
+  padding: 15px;
+}
+.ahc-button-wrapper {
+  background: #0073aa;
+  color: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  width: 50%;
+  margin: 0 auto;
+}
+.ahc-button-wrapper a .ahc-button-text{
+  color:#fff;
+}
+/*////MEDIA QUERIES////*/
+@media (max-width:1882px){
+    #ahop_container1{
+        width: 41%;
+    }
+    #ahop_container2{
+        width: 57%;
+        float: right;
+    }
+    #ahop_container3{
+        width: 100%;
+    }
+    #ahop_container4 {
+        width: 100%;
+        clear: left;
+        margin-top: 15px;
+    }
+}
+@media (max-width:1373px){
+    #ahop_container1{
+        width: 34%;
+    }    
+    #ahop_container2{
+        width: 65%;
+        float: left;
+    }
+    #ahop_container4{
+      clear: none;
+  }
+}
+@media (max-width:1249px){
+    #ahop_container1 br{
+        display: none;
+    }
+    #ahop_container1 #ahop_externo{
+        clear: both;
+    }
+    #ahop_container1{
+        width: 100%;
+        float: none;
+    }
+    #ahop_container2{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    #ahop_container3{
+        float: none;
+        margin-left: 0;
+    }
+    #ahop_container1 form .code_container:first-of-type{
+        float: left;
+        width: 47%;
+    }
+    #ahop_container1 form .code_container:last-of-type{
+        float: right;
+        width: 47%;
+    }
+    #ahop_container3 div{
+        min-height: 0;
+    }
+}
+@media (max-width:580px){
+    #ahop_container1{
+        float:none !important;
+        width: 100% !important;
+        min-height: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    #ahop_container2{
+        float:none !important;
+        margin-top: 15px;
+        width: 100% !important;
+        clear: both;
+    }
+    #ahop_container1 form .code_container:last-of-type {
+        float: right;
+        width: 100%;
+    }
+    #ahop_container4, #ahop_container5 {
+        width: 100%;
+        min-height: 150px;
+
+    }
+}
